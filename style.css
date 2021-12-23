@@ -1,0 +1,29 @@
+body {
+    background: #D0E4F5 url("/assets/composicion-minimalista-galletas-chocolate-glaseado-plato-blanco_8119-2053.jpg") repeat scroll 100% 100%;
+    }
+
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #b63828;
+        color: white;
+        font-size: 30px;
+      }
+
+      .grid-container {
+        display: grid;
+        height: 700px;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #f88f70;
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border-radius: 20px;
+      }
